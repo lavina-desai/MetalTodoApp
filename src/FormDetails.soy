@@ -1,0 +1,15 @@
+{namespace FormDetails}
+
+{template .render}
+<form data-onsubmit="handleSubmit">
+<center>
+<label for="name">
+Name :
+                <input data-onChange="handleChange" name="name" value="{$value}" type="text" required/>
+</label>
+<br /><br />
+
+<button type="submit" class="btn btn-primary">Submit</button>
+</center> 
+</form>
+{/template}
